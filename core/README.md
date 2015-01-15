@@ -1,0 +1,1 @@
+See http://copr-be.cloud.fedoraproject.org/results/hvad/shinken/ for src.rpm on which to apply this patch.
