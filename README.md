@@ -14,12 +14,12 @@ The rpm naming is:
 
 # Usage examples
 
-Download the source from github:
+Download the source from github with spectool from rpmdevtools package:
 - ```spectool -D --get-files --sourcedir --source 0 <package.spec>```
 
-Build the .rpm and the .src.rpm:
+Build the .rpm and the .src.rpm with the rpmbuild command from rpm-build package:
 - ```rpmbuild -ba <package.spec>```
 
-Build the rpms for a specific distribution:
+Build the rpms for a specific distribution with mock command from mock package:
 - ```mock -r epel-6-x86_64 <path>/rpmbuild/SRPMS/shinken-pack-linux-snmp-1.4-20141213git580d7e2.el7.centos.src.rpm```
 
