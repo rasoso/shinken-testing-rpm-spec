@@ -105,6 +105,6 @@ checkout = git clone https://github.com/shinken-monitoring/mod-ui-graphite
 [mod-ui-pnp]
 checkout = git clone https://github.com/shinken-monitoring/mod-ui-pnp
 [mod-webui]
-checkout = git clone -b master https://github.com/shinken-monitoring/mod-webui
+checkout = git clone https://github.com/shinken-monitoring/mod-webui
 [mod-ws-arbiter]
 checkout = git clone https://github.com/shinken-monitoring/mod-ws-arbiter
