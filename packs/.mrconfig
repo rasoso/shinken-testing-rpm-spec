@@ -1,0 +1,165 @@
+[pack-activemq]
+checkout = git clone https://github.com/jccomputing/pack-activemq
+
+[pack-aix]
+checkout = git clone https://github.com/shinken-monitoring/pack-aix
+
+[pack-akcp]
+checkout = git clone https://github.com/shinken-monitoring/pack-akcp
+
+[pack-arbiter]
+checkout = git clone https://github.com/DessaiImrane/pack-arbiter
+
+[pack-asterisk]
+checkout = git clone https://github.com/shinken-monitoring/pack-asterisk
+
+[pack-bird]
+checkout = git clone https://github.com/lolostates/pack-bird
+
+[pack-ceph]
+checkout = git clone https://github.com/sysnove/pack-ceph
+
+[pack-cisco]
+checkout = git clone https://github.com/shinken-monitoring/pack-cisco
+
+[pack-collectd]
+checkout = git clone https://github.com/shinken-monitoring/pack-collectd
+
+[pack-cups]
+checkout = git clone https://github.com/shinken-monitoring/pack-cups
+
+[pack-dc]
+checkout = git clone https://github.com/shinken-monitoring/pack-dc
+
+[pack-dhcp]
+checkout = git clone https://github.com/shinken-monitoring/pack-dhcp
+
+[pack-dns]
+checkout = git clone https://github.com/shinken-monitoring/pack-dns
+
+[pack-emc]
+checkout = git clone https://github.com/shinken-monitoring/pack-emc
+
+[pack-ftp]
+checkout = git clone https://github.com/shinken-monitoring/pack-ftp
+
+[pack-hacmp]
+checkout = git clone https://github.com/shinken-monitoring/pack-hacmp
+
+[pack-hp-asm]
+checkout = git clone https://github.com/shinken-monitoring/pack-hp-asm
+
+[pack-hp-blades-chassis]
+checkout = git clone https://github.com/shinken-monitoring/pack-hp-blades-chassis
+
+[pack-hp-printers]
+checkout = git clone https://github.com/shinken-monitoring/pack-hp-printers
+
+[pack-hp]
+checkout = git clone https://github.com/shinken-monitoring/pack-hp
+
+[pack-hpux]
+checkout = git clone https://github.com/shinken-monitoring/pack-hpux
+
+[pack-http-proxy]
+checkout = git clone https://github.com/jccomputing/pack-http-proxy
+
+[pack-http]
+checkout = git clone https://github.com/shinken-monitoring/pack-http
+
+[pack-ibm-ds]
+checkout = git clone https://github.com/shinken-monitoring/pack-ibm-ds
+
+[pack-ibm-xseries]
+checkout = git clone https://github.com/claneys/pack-ibm-xseries
+
+[pack-iis]
+checkout = git clone https://github.com/shinken-monitoring/pack-iis
+
+[pack-imap]
+checkout = git clone https://github.com/shinken-monitoring/pack-imap
+
+[pack-ldap]
+checkout = git clone https://github.com/shinken-monitoring/pack-ldap
+
+[pack-linux-snmp]
+checkout = git clone https://github.com/shinken-monitoring/pack-linux-snmp
+
+[pack-linux-ssh]
+checkout = git clone https://github.com/naparuba/pack-linux-ssh
+
+[pack-memcached]
+checkout = git clone https://github.com/addonline/pack-memcached
+
+[pack-mongodb]
+checkout = git clone https://github.com/shinken-monitoring/pack-mongodb
+
+[pack-mssql]
+checkout = git clone https://github.com/shinken-monitoring/pack-mssql
+
+[pack-mysql]
+checkout = git clone https://github.com/shinken-monitoring/pack-mysql
+
+[pack-netapp]
+checkout = git clone https://github.com/shinken-monitoring/pack-netapp
+
+[pack-nortel]
+checkout = git clone https://github.com/shinken-monitoring/pack-nortel
+
+[pack-ntp]
+checkout = git clone https://github.com/jccomputing/pack-ntp
+
+[pack-oracle-forms]
+checkout = git clone https://github.com/shinken-monitoring/pack-oracle-forms
+
+[pack-oracle]
+checkout = git clone https://github.com/shinken-monitoring/pack-oracle
+
+[pack-pop3]
+checkout = git clone https://github.com/shinken-monitoring/pack-pop3
+
+[pack-postgresql]
+checkout = git clone https://github.com/shinken-monitoring/pack-postgresql
+
+[pack-printers]
+checkout = git clone https://github.com/shinken-monitoring/pack-printers
+
+[pack-raspberrypi]
+checkout = git clone https://github.com/Frescha/pack-raspberrypi
+
+[pack-router]
+checkout = git clone https://github.com/shinken-monitoring/pack-router
+
+[pack-safekit]
+checkout = git clone https://github.com/shinken-monitoring/pack-safekit
+
+[pack-server-ipmi]
+checkout = git clone https://github.com/claneys/pack-server-ipmi
+
+[pack-smtp]
+checkout = git clone https://github.com/shinken-monitoring/pack-smtp
+
+[pack-storwize]
+checkout = git clone https://github.com/claneys/pack-storwize
+
+[pack-switch]
+checkout = git clone https://github.com/shinken-monitoring/pack-switch
+
+[pack-tomcat]
+checkout = git clone https://github.com/shinken-monitoring/pack-tomcat
+
+[pack-unix-fs]
+checkout = git clone https://github.com/claneys/pack-unix-fs
+
+[pack-vmware]
+checkout = git clone https://github.com/shinken-monitoring/pack-vmware
+
+[pack-weblogic]
+checkout = git clone https://github.com/shinken-monitoring/pack-weblogic
+
+[pack-windows]
+checkout = git clone https://github.com/shinken-monitoring/pack-windows
+
+
+
+
