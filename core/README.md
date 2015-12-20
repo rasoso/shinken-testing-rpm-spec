@@ -2,16 +2,16 @@
 
 - Download the .src.rpm: 
 
-```$ wget http://copr-be.cloud.fedoraproject.org/results/hvad/shinken/epel-7-x86_64/shinken-2.2-1.fc20/shinken-2.2-1.el7.centos.src.rpm```
+```$ wget https://hvad.fedorapeople.org/fedora/shinken/shinken-2.4.1-1.fc20.src.rpm```
 
 - Decompress it:
 
-```$ rpm2cpio shinken-2.2-1.el7.centos.src.rpm|cpio -idv```
+```$ rpm2cpio shinken-2.4.1-1.fc20.src.rpm|cpio -idv```
 
 - Test patch:
 
 ```
-$ patch -p0 --dry-run --verbose < 2.2.patch 
+$ patch -p0 --dry-run --verbose < 2.4.1-1.patch 
 Hmm...  Looks like a unified diff to me...
 The text leading up to this was:
 --------------------------
@@ -25,7 +25,7 @@ Hunk #2 succeeded at 104.
 done
 ```
 
-- Patch ```$ cp shinken.spec shinken.spec.ORIG;patch -p0 < 2.2.patch```
+- Patch ```$ cp shinken.spec shinken.spec.ORIG;patch -p0 < 2.4.1-1.patch```
 
 
 - Copy files into rpmbuild ```$ cp path.cfg *.init *.service shinken.8shinken ~/rpmbuild/SOURCES/``` (adapt the destination path)
@@ -36,7 +36,7 @@ done
 
 - Update the patch if needed
 ```
-$ diff -up shinken.spec.ORIG shinken.spec > 2.2-RC1.patch
+$ diff -up shinken.spec.ORIG shinken.spec > 2.4.1-1.patch
 ```
 - Download the git HEAD:
 ```
@@ -47,14 +47,14 @@ $ spectool -D --get-files --sourcedir --source 0 shinken.spec
 
 - Check the end of compile log:
 ```
-Wrote: /home/test/rpmbuild/SRPMS/shinken-2.2-1_20150120git59c4bf0.el7.centos.src.rpm
-Wrote: /home/test/rpmbuild/RPMS/noarch/shinken-2.2-1_20150120git59c4bf0.el7.centos.noarch.rpm
-Wrote: /home/test/rpmbuild/RPMS/noarch/shinken-arbiter-2.2-1_20150120git59c4bf0.el7.centos.noarch.rpm
-Wrote: /home/test/rpmbuild/RPMS/noarch/shinken-reactionner-2.2-1_20150120git59c4bf0.el7.centos.noarch.rpm
-Wrote: /home/test/rpmbuild/RPMS/noarch/shinken-scheduler-2.2-1_20150120git59c4bf0.el7.centos.noarch.rpm
-Wrote: /home/test/rpmbuild/RPMS/noarch/shinken-poller-2.2-1_20150120git59c4bf0.el7.centos.noarch.rpm
-Wrote: /home/test/rpmbuild/RPMS/noarch/shinken-broker-2.2-1_20150120git59c4bf0.el7.centos.noarch.rpm
-Wrote: /home/test/rpmbuild/RPMS/noarch/shinken-receiver-2.2-1_20150120git59c4bf0.el7.centos.noarch.rpm
+Wrote: /root/rpmbuild/SRPMS/shinken-2.4.1-1_20151220git79972f5.el7.centos.src.rpm
+Wrote: /root/rpmbuild/RPMS/noarch/shinken-2.4.1-1_20151220git79972f5.el7.centos.noarch.rpm
+Wrote: /root/rpmbuild/RPMS/noarch/shinken-arbiter-2.4.1-1_20151220git79972f5.el7.centos.noarch.rpm
+Wrote: /root/rpmbuild/RPMS/noarch/shinken-reactionner-2.4.1-1_20151220git79972f5.el7.centos.noarch.rpm
+Wrote: /root/rpmbuild/RPMS/noarch/shinken-scheduler-2.4.1-1_20151220git79972f5.el7.centos.noarch.rpm
+Wrote: /root/rpmbuild/RPMS/noarch/shinken-poller-2.4.1-1_20151220git79972f5.el7.centos.noarch.rpm
+Wrote: /root/rpmbuild/RPMS/noarch/shinken-broker-2.4.1-1_20151220git79972f5.el7.centos.noarch.rpm
+Wrote: /root/rpmbuild/RPMS/noarch/shinken-receiver-2.4.1-1_20151220git79972f5.el7.centos.noarch.rpm
 ```
 
 - Go to play with shinken HEAD and report good issues :-)

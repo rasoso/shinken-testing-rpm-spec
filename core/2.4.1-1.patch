@@ -1,33 +1,35 @@
---- shinken.spec.ORIG	2015-01-20 14:00:05.411000000 -0500
-+++ shinken.spec	2015-01-20 14:08:51.430000000 -0500
+--- shinken.spec.ORIG   2015-12-20 20:15:53.596967879 +0000
++++ shinken.spec        2015-12-20 20:19:30.336971167 +0000
 @@ -2,12 +2,18 @@
  %global shinken_user nagios
  %global shinken_group nagios
- 
-+%global commit 59c4bf0fbef90d14d36998d31b80fbfc36b860d7
+
++%global commit 79972f5f1bb89507f1c6b8b9261a8d62a729c09c
 +%global shortcommit %(c=%{commit}; echo ${c:0:7})
 +%global date %(date +%%Y%%m%%d)
 +%global checkout %{date}git%{shortcommit}
 +
  Summary:        Python Monitoring tool
  Name:           shinken
- Version:        2.2
+ Version:        2.4.1
 -Release:        1%{?dist}
 +Release:        1_%{checkout}%{?dist}
  URL:            http://www.%{name}-monitoring.org
--Source0:        https://github.com/naparuba/%{name}/archive/%{version}.tar.gz 
-+#Source0:        https://github.com/naparuba/%{name}/archive/%{version}.tar.gz 
+-Source0:        https://github.com/naparuba/%{name}/archive/%{version}.tar.gz
++#Source0:        https://github.com/naparuba/%{name}/archive/%{version}.tar.gz
 +Source0:        https://github.com/naparuba/%{name}/archive/%{commit}/%{name}-%{commit}.tar.gz
- Source1:        %{name}-arbiter.service
- Source2:        %{name}-broker.service
- Source3:        %{name}-reactionner.service
-@@ -98,7 +104,8 @@ Shinken receiver daemon
- 
+ Source1:               %{name}.8shinken
+ Source2:               path.cfg
+ Source3:               shinken-arbiter.service
+@@ -92,8 +98,8 @@ Shinken receiver daemon
+
  %prep
- 
+
 -%setup -q -n %{name}-%{version}
+-
 +#%setup -q -n %{name}-%{version}
 +%setup -q -n %{name}-%{commit}
- 
  # clean git files/
  find . -name '.gitignore' -exec rm -f {} \;
+ find . -name '.gitempty' -exec rm -f {} \;
+
