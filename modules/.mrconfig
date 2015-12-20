@@ -1,0 +1,110 @@
+[mod-android-sms]
+checkout = git clone https://github.com/shinken-monitoring/mod-android-sms
+[mod-auth-active-directory]
+checkout = git clone https://github.com/shinken-monitoring/mod-auth-active-directory
+[mod-auth-cfg-password]
+checkout = git clone https://github.com/shinken-monitoring/mod-auth-cfg-password
+[mod-auth-htpasswd]
+checkout = git clone https://github.com/shinken-monitoring/mod-auth-htpasswd
+[mod-auth-pam]
+checkout = git clone https://github.com/mingbowan/mod-auth-pam
+[mod-auth-ws-glpi]
+checkout = git clone https://github.com/mohierf/mod-auth-ws-glpi
+[mod-booster-nrpe]
+checkout = git clone https://github.com/shinken-monitoring/mod-booster-nrpe
+[mod-canopsis]
+checkout = git clone https://github.com/shinken-monitoring/mod-canopsis
+[mod-checks-forward]
+checkout = git clone https://github.com/mohierf/mod-checks-forward
+[mod-collectd]
+checkout = git clone https://github.com/shinken-monitoring/mod-collectd
+[mod-couchdb]
+checkout = git clone https://github.com/shinken-monitoring/mod-couchdb
+[mod-csv-tag]
+checkout = git clone https://github.com/shinken-monitoring/mod-csv-tag
+[mod-file-tag]
+checkout = git clone https://github.com/shinken-monitoring/mod-file-tag
+[mod-glpidb]
+checkout = git clone https://github.com/shinken-monitoring/mod-glpidb
+[mod-graphite]
+checkout = git clone https://github.com/shinken-monitoring/mod-graphite
+[mod-hack-commands-poller-tag-arbiter]
+checkout = git clone https://github.com/shinken-monitoring/mod-hack-commands-poller-tag-arbiter
+[mod-hack-poller-tag-by-macros]
+checkout = git clone https://github.com/shinken-monitoring/mod-hack-poller-tag-by-macros
+[mod-hot-dependencies]
+checkout = git clone https://github.com/shinken-monitoring/mod-hot-dependencies
+[mod-import-aws]
+checkout = git clone https://github.com/shinken-monitoring/mod-import-aws
+[mod-import-glpi]
+checkout = git clone https://github.com/shinken-monitoring/mod-import-glpi
+[mod-import-landscape]
+checkout = git clone https://github.com/shinken-monitoring/mod-import-landscape
+[mod-import-mysql]
+checkout = git clone https://github.com/shinken-monitoring/mod-import-mysql
+[mod-influxdb]
+checkout = git clone https://github.com/savoirfairelinux/mod-influxdb
+[mod-ip-tag]
+checkout = git clone https://github.com/shinken-monitoring/mod-ip-tag
+[mod-livestatus]
+checkout = git clone https://github.com/shinken-monitoring/mod-livestatus
+[mod-logentries]
+checkout = git clone https://github.com/StephenHynes7/mod-logentries
+[mod-logstore-mongodb]
+checkout = git clone https://github.com/shinken-monitoring/mod-logstore-mongodb
+[mod-logstore-null]
+checkout = git clone https://github.com/shinken-monitoring/mod-logstore-null
+[mod-logstore-sqlite]
+checkout = git clone https://github.com/shinken-monitoring/mod-logstore-sqlite
+[mod-merlindb]
+checkout = git clone https://github.com/shinken-monitoring/mod-merlindb
+[mod-mongodb]
+checkout = git clone https://github.com/shinken-monitoring/mod-mongodb
+[mod-named-pipe]
+checkout = git clone https://github.com/shinken-monitoring/mod-named-pipe
+[mod-ndodb-mysql]
+checkout = git clone https://github.com/shinken-monitoring/mod-ndodb-mysql
+[mod-npcdmod]
+checkout = git clone https://github.com/shinken-monitoring/mod-npcdmod
+[mod-nsca]
+checkout = git clone https://github.com/shinken-monitoring/mod-nsca
+[mod-perfdata-host]
+checkout = git clone https://github.com/shinken-monitoring/mod-perfdata-host
+[mod-perfdata-service]
+checkout = git clone https://github.com/shinken-monitoring/mod-perfdata-service
+[mod-pickle-retention-file-generic]
+checkout = git clone https://github.com/shinken-monitoring/mod-pickle-retention-file-generic
+[mod-pickle-retention-file-scheduler]
+checkout = git clone https://github.com/shinken-monitoring/mod-pickle-retention-file-scheduler
+[mod-rawsocket]
+checkout = git clone https://github.com/savoirfairelinux/mod-rawsocket
+[mod-retention-memcache]
+checkout = git clone https://github.com/shinken-monitoring/mod-retention-memcache
+[mod-retention-mongodb]
+checkout = git clone https://github.com/shinken-monitoring/mod-retention-mongodb
+[mod-retention-nagios]
+checkout = git clone https://github.com/shinken-monitoring/mod-retention-nagios
+[mod-retention-redis]
+checkout = git clone https://github.com/shinken-monitoring/mod-retention-redis
+[mod-riemann]
+checkout = git clone https://github.com/savoirfairelinux/mod-riemann
+[mod-simple-log]
+checkout = git clone https://github.com/shinken-monitoring/mod-simple-log
+[mod-snapshot-mongodb]
+checkout = git clone https://github.com/naparuba/mod-snapshot-mongodb
+[mod-sqlitedb]
+checkout = git clone https://github.com/shinken-monitoring/mod-sqlitedb
+[mod-sqlitelog]
+checkout = git clone https://github.com/edin1/mod-sqlitelog
+[mod-status-dat]
+checkout = git clone https://github.com/shinken-monitoring/mod-status-dat
+[mod-syslog-sink]
+checkout = git clone https://github.com/shinken-monitoring/mod-syslog-sink
+[mod-ui-graphite]
+checkout = git clone https://github.com/shinken-monitoring/mod-ui-graphite
+[mod-ui-pnp]
+checkout = git clone https://github.com/shinken-monitoring/mod-ui-pnp
+[mod-webui]
+checkout = git clone -b master https://github.com/shinken-monitoring/mod-webui
+[mod-ws-arbiter]
+checkout = git clone https://github.com/shinken-monitoring/mod-ws-arbiter
