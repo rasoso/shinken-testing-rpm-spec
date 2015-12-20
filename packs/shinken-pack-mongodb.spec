@@ -1,4 +1,4 @@
-%global commit 2845cc3296a70fcb4c4f316cd984825aac5bd87d
+%global commit 421be9227756ea14b114578bc0beed33fcdc8232
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 %global date %(date +%%Y%%m%%d)
 %global checkout %{date}git%{shortcommit}
