@@ -1,9 +1,8 @@
-%global commit f82af82c55d9b4eaa5b1fac0019b3209b962ca93
+%global commit 160422ea6a9dffbae343d81e7b083fb426424ecf
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 %global date %(date +%%Y%%m%%d)
 %global checkout %{date}git%{shortcommit}
-%global module  raw-socket
-%global githubproject mod-rawsocket
+%global module  rawsocket
 %global repo savoirfairelinux
 %global json_version 1.5.1
 
@@ -12,10 +11,8 @@ Version:        %{json_version}
 Release:        %{checkout}%{?dist}
 Summary:        Module for Shinken Broker. Export data into a network socket
 License:        AGPL
-#URL:            https://github.com/%{repo}/mod-%{module}
-URL:            https://github.com/%{repo}/%{githubproject}
-#Source0:        https://github.com/%{repo}/mod-%{module}/archive/%{commit}.tar.gz#/%{name}-%{version}-%{commit}.tar.gz
-Source0:        https://github.com/%{repo}/%{githubproject}/archive/%{commit}.tar.gz#/%{name}-%{version}-%{commit}.tar.gz
+URL:            https://github.com/%{repo}/mod-%{module}
+Source0:        https://github.com/%{repo}/mod-%{module}/archive/%{commit}.tar.gz#/%{name}-%{version}-%{commit}.tar.gz
 
 BuildArch: noarch
 

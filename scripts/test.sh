@@ -7,7 +7,7 @@ do
     then
 	echo OK sha1 $i
     else
-	echo KO sha1 $i spec: $SPEC_SHA1 repo: $REPO_SHA1
+	echo KO sha1 shinken-$i.spec spec: $SPEC_SHA1 repo: $REPO_SHA1
     fi
     SPEC_JSON=`grep '^%global json_version' shinken-$i.spec|sed 's/%global json_version //'`
     REPO_JSON=`grep '"version"' $i/package.json|cut -d":" -f2|tr -d "\""|tr -d " "|tr -d ","`

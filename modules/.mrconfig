@@ -24,6 +24,8 @@ checkout = git clone https://github.com/shinken-monitoring/mod-couchdb
 checkout = git clone https://github.com/shinken-monitoring/mod-csv-tag
 [mod-file-tag]
 checkout = git clone https://github.com/shinken-monitoring/mod-file-tag
+[mod-glpi-helpdesk]
+checkout = git clone https://github.com/shinken-monitoring/mod-glpi-helpdesk
 [mod-glpidb]
 checkout = git clone https://github.com/shinken-monitoring/mod-glpidb
 [mod-graphite]

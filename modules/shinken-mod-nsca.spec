@@ -1,10 +1,10 @@
-%global commit b7eaf6bc24069c4117818da92900c68a3ae2f84e
+%global commit bee3e26880730cda8c0a326daf77e020897c9cd8
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 %global date %(date +%%Y%%m%%d)
 %global checkout %{date}git%{shortcommit}
 %global module  nsca
 %global repo shinken-monitoring
-%global json_version 1.4.1
+%global json_version 1.4.2
 
 Name:           shinken-mod-%{module}
 Version:        %{json_version}

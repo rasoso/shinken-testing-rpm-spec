@@ -1,10 +1,10 @@
-%global commit 175ed163db201255fd5624e01b98aae5e6b3c2f9
+%global commit 26e0738932cf8d67051b94831939188a728b91cf
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 %global date %(date +%%Y%%m%%d)
 %global checkout %{date}git%{shortcommit}
 %global module  retention-mongodb
 %global repo shinken-monitoring
-%global json_version 1.4.1
+%global json_version 1.4.2
 
 Name:           shinken-mod-%{module}
 Version:        %{json_version}

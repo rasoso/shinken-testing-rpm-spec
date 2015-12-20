@@ -1,10 +1,10 @@
-%global commit 170dbef0b6c1ed376a74ea0cf28edc51a0819821
+%global commit 33323f6b2864ae216cffb69a8e002bc1b7339dd9
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 %global date %(date +%%Y%%m%%d)
 %global checkout %{date}git%{shortcommit}
 %global module  auth-ws-glpi
 %global repo mohierf
-%global json_version 0.1
+%global json_version 1.0.0
 
 Name:           shinken-mod-%{module}
 Version:        %{json_version}

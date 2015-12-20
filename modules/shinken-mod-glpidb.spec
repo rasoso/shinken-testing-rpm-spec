@@ -1,10 +1,10 @@
-%global commit 04a9270a281010824057fe8837e9d3b709e2cc71
+%global commit 58976f8bc0b8525a8cffc08b9175f3a0db3bce65
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 %global date %(date +%%Y%%m%%d)
 %global checkout %{date}git%{shortcommit}
 %global module  glpidb
 %global repo shinken-monitoring
-%global json_version 2.0
+%global json_version 2.1
 
 Name:           shinken-mod-%{module}
 Version:        %{json_version}

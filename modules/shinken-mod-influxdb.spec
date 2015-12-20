@@ -1,10 +1,10 @@
-%global commit 39389df830d9832ba6ff3eac21c0f6a835e4a868
+%global commit 932cebcca8e0ace472b13ec949b320c79c2f8949
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 %global date %(date +%%Y%%m%%d)
 %global checkout %{date}git%{shortcommit}
 %global module  influxdb
 %global repo savoirfairelinux
-%global json_version 0.8
+%global json_version 3.0.0
 
 Name:           shinken-mod-%{module}
 Version:        %{json_version}

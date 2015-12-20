@@ -1,15 +1,15 @@
-%global commit 851508a87d81f172079dc25cc2fc5684342dc8e4
+%global commit 3d2e8c7c4d03da199819b871fa70a60ac2e78bbd
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 %global date %(date +%%Y%%m%%d)
 %global checkout %{date}git%{shortcommit}
-%global module  canopsis
+%global module  glpi-helpdesk
 %global repo shinken-monitoring
-%global json_version 1.4
+%global json_version 1.0
 
 Name:           shinken-mod-%{module}
 Version:        %{json_version}
 Release:        %{checkout}%{?dist}
-Summary:        Shinken module for exporting data to Canopsis
+Summary:        Shinken supports importing hosts from GLPI
 License:        AGPL
 URL:            https://github.com/%{repo}/mod-%{module}
 Source0:        https://github.com/%{repo}/mod-%{module}/archive/%{commit}.tar.gz#/%{name}-%{version}-%{commit}.tar.gz
@@ -22,7 +22,10 @@ BuildRequires:         shinken >= 2.2
 
 
 %description
-Shinken module for exporting data to Canopsis
+Shinken module for exporting data to GLPI monitoring module
+
+This version works with plugin monitoring 0.84+1.1 for GLPI.
+See https://forge.indepnet.net/projects/monitoring/
 
 %prep
 %setup -n mod-%{module}-%{commit}

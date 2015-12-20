@@ -4,7 +4,7 @@
 %global checkout %{date}git%{shortcommit}
 %global module  import-mysql
 %global repo shinken-monitoring
-%global json_version 1.4
+%global json_version 1.0
 
 Name:           shinken-mod-%{module}
 Version:        %{json_version}
