@@ -8,7 +8,7 @@
 
 Name:           shinken-mod-%{module}
 Version:        %{json_version}
-Release:        1%{?dist}
+Release:        %{checkout}%{?dist}
 Summary:        shinken module livestatus
 
 License:        AGPL
